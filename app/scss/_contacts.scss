@@ -1,0 +1,56 @@
+.contacts{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    background: url('../images/contacts-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.contacts__title {
+    margin-bottom: 4rem;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.contacts__block {
+    max-width: 57rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    padding-top: 4rem;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.contacts__item {
+    display: block;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+.contacts__item::before{
+    position: absolute;
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    top: 5px;
+    left: -65px;
+}
+.phone::before{
+    background: url('../images/contact-phone.svg') no-repeat;
+}
+.whatsap::before {
+    background: url('../images/contact-whatsap.svg') no-repeat;
+}
+.email::before {
+    background: url('../images/contact-email.svg') no-repeat;
+}
+.adrress::before {
+    background: url('../images/contact-adrress.svg') no-repeat;
+}
+.contacts__subtitle {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.map {
+    height: 50rem;
+}
