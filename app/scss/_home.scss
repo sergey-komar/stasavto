@@ -28,8 +28,8 @@
 .slick-next-img::before{
     position: absolute;
     content: '';
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     top: 50%;
     z-index: 10;
     transform: translateY(-50%);
@@ -222,6 +222,24 @@ li.slick-active button{
 .auto-cart__item-price--en{
     font-weight: 700;
 }
+.auto-cart__btn,
+.guarantee__btn{
+    max-width: 29rem;
+    width: 100%;
+    height: 4.7rem;
+    margin: 0 auto 7rem auto;
+    background: linear-gradient(180deg, #F1D27A 0%, #EECA64 23.96%, #FCE194 59.37%, #E4BE51 94.79%);
+    border-radius: 10rem;
+    text-align: center;
+    font-size: 2rem;
+    border: none;
+    line-height: 4.7rem;
+    font-weight: 700;
+    display: none;
+}
+.show{
+    display: block;
+}
 
 
 
@@ -237,4 +255,7 @@ li.slick-active button{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.brend-slider{
+    display: none;
 }

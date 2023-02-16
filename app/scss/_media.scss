@@ -1,0 +1,151 @@
+@media(max-width: 1200px){
+    .auto-cart,
+    .brend__inner{
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+@media(max-width: 1050px){
+    html{
+        font-size: 8px;
+    }
+}
+@media(max-width: 900px){
+    .advantages__item{
+        width: 30rem;
+    }
+    .advantages__inner{
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 800px){
+    .menu{
+        position: fixed;
+        width: 100%;
+        // height: 100%;
+        height: 50rem;
+        display: flex;
+        overflow: auto;
+        // background-color: rgba(251, 251, 243, .9);
+        background-color: #D0D0D0;
+        right: 0;;
+        left: 0;
+        top: 0;
+        transition: all .4s ease-in;
+        transform: translateX(-100%);
+        z-index: 19;
+    }
+    
+    .menu.nav--active{
+        transform: translateX(0);
+    }
+    .nav-icon{
+        display: block;
+    }
+    .menu__list{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu__list li{
+        // margin-bottom: 4rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    .menu__list li a{
+        font-size: 2.5rem;
+    }
+    .logo{
+        position: relative;
+        z-index: 100;
+    }
+}
+
+
+@media(max-width: 650px){
+    .footer__menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__menu li{
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 550px){
+    html{
+        font-size: 7px;
+    }
+    .procces__item{
+        margin-bottom: 6rem;
+    }
+    .procces__item::before{
+        width: 5rem;
+        height: 5rem;
+        top: -4.7rem;
+    }
+    .heading__title,
+    .procces__title{
+        font-size: 4rem;
+        line-height: 4.4rem;
+    }
+    .advantages__item{
+        width: 35rem;
+    }
+    .auto-cart__btn,
+    .guarantee__btn{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .brend{
+        display: none;
+    }
+    .brend-slider{
+        display: block;
+        padding-bottom: 2.5rem;
+    }
+    .brend-slider .slick-dots{
+        transform: translateY(0);
+    }
+    .brend-slider__item img{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+    }
+    .breadcrumbs li:first-child::after{
+        top: 1px;
+        right: -20px;
+    }
+    .selection__item{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .selection__item-box {
+        margin-top: 2rem;
+    }
+    .contacts__item::before{
+        width: 6rem;
+        height: 6rem;
+    }
+    .contacts__item{
+        margin-bottom: 4rem;
+    }
+    .menu__list li {
+        width: 100%;
+    }
+    .menu__list li a{
+        display: block;
+        text-align: center;
+        font-weight: 700;
+    }
+     .main-menu{
+         transform: translateY(260px);
+     }
+
+}

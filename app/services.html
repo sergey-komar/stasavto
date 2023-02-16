@@ -11,12 +11,15 @@
 <header class="header">
     <div class="container">
         <div class="header__inner">
+            <div class="nav-icon">
+                <div class="nav-icon__middle"></div>
+            </div>
         <a href="#" class="logo">
             <img src="./images/logo.svg" alt="img">
         </a>
 
-        <nav class="nav">
-            <ul class="menu">
+        <nav class="menu">
+            <ul class="menu__list">
             <li>
                 <a href="./index.html" class="active">Главная</a>
             </li>
@@ -162,9 +165,10 @@
                     </li>
                 </ul>
             </div>
+            <button class="guarantee__btn">Показать ещё</button>
         </div>
 
-        <div class="guarantee">
+        <div id="guarantee" class="guarantee  hide">
             <div class="container">
                 <div class="guarantee__title">Мы не несем ответственность за:</div>
                 <ul class="guarantee__list">
@@ -185,7 +189,7 @@
         </div>
 
 
-        <div class="decor">
+        <div class="decor hide">
             <div class="container">
                 <div class="decor__block">
                     <div class="decor__title">Таможенное оформление</div>
